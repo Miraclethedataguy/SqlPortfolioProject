@@ -7,7 +7,7 @@ SELECT
   --Looking at the Total cases vs Total Deaths
 
   SELECT 
-      location,date,total_cases,total_deaths,(total_deaths/total_cases)*100 as DeathPercentag
+      location,date,total_cases,total_deaths,(total_deaths/total_cases)*100 as DeathPercentage
   FROM PorfolioProject..CovidDeaths
   Where location like '%kingdom%'
   --And total_cases is null
